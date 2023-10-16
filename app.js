@@ -15,7 +15,7 @@ app.get('/products', (req, res) => {
                 res.json(products);
             } else {
                 const result = products.slice(0, parseInt(limit));
-                res.json(result);
+                res.status(200).json(result);
             }
         })
         .catch(error => {
