@@ -204,6 +204,12 @@ async function test() {
     // Agrego dos productos más.
     await productManager.addProduct('Cel Xiaomi Redmi 10a', 'Uno de los celulares mas venididos del 2021', 153, './img/cel-tecno/xiaomi-redmi-10a', 5700, 20);
     await productManager.addProduct('ASUS Vivobook m513ia bq322t', 'Computador portatil de gran performace', 800, './img/notebooks/asus-vivobook-m513ia', 5701, 10);
+    await productManager.addProduct('HP-14\" dq2088wm HD Core i5', 'Computador portatil de gran procesador', 849, './img/notebooks/hp-14-dq2088wm', 5702, 10);
+    await productManager.addProduct('Enxuta smart tv 24\" ledenx1224d1k', 'TV Smart la mas vendida de 2022', 134, './img/tv-video/enxuta-smart-tv-24-ledenx1224d1k', 5703, 10);
+    await productManager.addProduct('JBL wave 300 tws headphone', 'Excelentes auriculares', 89, './img/tv-video/jbl-wave-300-tws', 5704, 10);
+    await productManager.addProduct('Minicomponente LG Cl88', 'Gran potencia de sonido', 780, './img/tv-video/minicomponente-lg-cl88', 5705, 10);
+    await productManager.addProduct('Nintendo Switch Oled 64gb', 'La mejor Consola de Nintendo', 800, './img/tv-video/nintendo-switch-oled-64gb', 5706, 10);
+    await productManager.addProduct('Smart TV LG 55\" oled oled55c2psa', 'TV de ultima generación', 2849, './img/tv-video/smart-tv-lg-55-oled55a2psa', 5707, 10);
 
     console.log('Ejecuto getProducts');
     await productManager.getProducts()
@@ -215,7 +221,7 @@ async function test() {
         });
 
     // // Pruebo traer un producto de id inexistente
-    await productManager.getProductById(5)
+    await productManager.getProductById(15)
         .then(product => {
             console.log('Product By Id:', product);
         })

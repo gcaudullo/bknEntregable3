@@ -14,7 +14,7 @@ app.get('/products', (req, res) => {
             if (!limit) {
                 res.json(products);
             } else {
-                const result = products.filter((product) => product.id <= parseInt(limit));
+                const result = products.slice(0, parseInt(limit));
                 res.json(result);
             }
         })
@@ -25,7 +25,6 @@ app.get('/products', (req, res) => {
 
 app.get('/products/:pId', (req, res) => {
     const { pId } = req.params;
-    console.log(pId)
     productManager.getProductById(parseInt(pId))
     .then(product => {
         if (product === 'Product Not found! 😨') {

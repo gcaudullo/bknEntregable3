@@ -34,5 +34,59 @@
 		"thumbnail": "./img/notebooks/asus-vivobook-m513ia",
 		"code": 5701,
 		"stock": 10
+	},
+	{
+		"id": 5,
+		"title": "HP-14\" dq2088wm HD Core i5",
+		"description": "Computador portatil de gran procesador",
+		"price": 849,
+		"thumbnail": "./img/notebooks/hp-14-dq2088wm",
+		"code": 5702,
+		"stock": 10
+	},
+	{
+		"id": 6,
+		"title": "Enxuta smart tv 24\" ledenx1224d1k",
+		"description": "TV Smart la mas vendida de 2022",
+		"price": 134,
+		"thumbnail": "./img/tv-video/enxuta-smart-tv-24-ledenx1224d1k",
+		"code": 5703,
+		"stock": 10
+	},
+	{
+		"id": 7,
+		"title": "JBL wave 300 tws headphone",
+		"description": "Excelentes auriculares",
+		"price": 89,
+		"thumbnail": "./img/tv-video/jbl-wave-300-tws",
+		"code": 5704,
+		"stock": 10
+	},
+	{
+		"id": 8,
+		"title": "Minicomponente LG Cl88",
+		"description": "Gran potencia de sonido",
+		"price": 780,
+		"thumbnail": "./img/tv-video/minicomponente-lg-cl88",
+		"code": 5705,
+		"stock": 10
+	},
+	{
+		"id": 9,
+		"title": "Nintendo Switch Oled 64gb",
+		"description": "La mejor Consola de Nintendo",
+		"price": 800,
+		"thumbnail": "./img/tv-video/nintendo-switch-oled-64gb",
+		"code": 5706,
+		"stock": 10
+	},
+	{
+		"id": 10,
+		"title": "Smart TV LG 55\" oled oled55c2psa",
+		"description": "TV de ultima generación",
+		"price": 2849,
+		"thumbnail": "./img/tv-video/smart-tv-lg-55-oled55a2psa",
+		"code": 5707,
+		"stock": 10
 	}
 ]
